@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Analyzer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Cyber Analyzer Dashboard</h1>
+        <p class="subtitle">Çok Dilli Ağ Tarama ve Siber Risk Analiz Paneli</p>
+        
+        <div class="card">
+            <h3>Tarama Başlat</h3>
+            <input type="text" id="targetIp" value="127.0.0.1" placeholder="Hedef IP Girin">
+            <button id="scanBtn">Sistem Analizini Başlat</button>
+        </div>
+
+        <div class="card result-card">
+            <h3>🔍 Canlı Analiz Sonuçları</h3>
+            <div id="output" class="output-box">Başlatılması bekleniyor...</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
